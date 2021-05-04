@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="booking.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Book Now</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">OsoMultimedia</a>
+        <ul class="list">
+          <li class="list-item"><a href="index.html" class="link active">Home</a></li>
+          <li class="list-item"><a href="index.html" class="link">Services</a></li>
+          <li class="list-item"><a href="index.html" class="link">Events</a></li>
+          <li class="list-item"><a href="index.html" class="link">Gallery</a></li>
+          <li class="list-item"><a href="index.html" class="link">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MOOBILE NAVIGATION STRUCTURE -->
+    <div class="mobile-nav">
+      <ul class="mobile-list">
+        <span class="close">&times;</span>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="index.html">Events</a></li>
+        <li><a href="index.html">Gallery</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="booking-section">
+    <div class="container">
+      <div class="booking-container">
+        <h1 class="booking-heading">Book Us Now</h1>
+        <p>We care about your job. We will serve you to your sactisfaction anywhere within the country</p>
+
+        <div class="bookings">
+          <div class="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" name="service" id="video" class="radio" data-target="5000">
+                <label for="video">Video Coverage</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="service" id="photo" class="radio" data-target="3000"="">
+                <label for="photo">Photography</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="service" id="video-photo" class="radio" data-target="1000">
+                <label for="video-photo">Video Coverage and Photography</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="service" id="barner" class="radio" data-target="1000">
+                <label for="barner">Barner Designs</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="service" id="editing" class="radio" data-target="1000">
+                <label for="editing">Video Editing</label>
+              </div>
+            </div>
+            <div class="selected" id="selected">
+              Select Service(s)
+            </div>
+          </div>
+          <div class="select-box" id="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" name="events" id="marriage" class="radio" data-target="5000">
+                <label for="marriage">Marriage Ceremony</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="events" id="burial" class="radio" data-target="3000"="">
+                <label for="burial">Burial Ceremony</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="events" id="others" class="radio" data-target="1000">
+                <label for="others">Others</label>
+              </div>
+            </div>
+            <div class="selected" id="selected">
+              Select Event(s)
+            </div>
+          </div>
+          <div class="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" name="events" id="marriage" class="radio" data-target="5000">
+                <label for="marriage">Marriage Ceremony</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="events" id="burial" class="radio" data-target="3000"="">
+                <label for="burial">Burial Ceremony</label>
+              </div>
+              <div class="option">
+                <input type="radio" name="events" id="others" class="radio" data-target="1000">
+                <label for="others">Others</label>
+              </div>
+            </div>
+            <div class="selected" id="selected">
+              Select Event(s)
+            </div>
+          </div>
+          <div class="select-box">
+            <div class="input-group date">
+              <input type="date" name="date" id="date">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <section class="section-footer">
+    <div class="container">
+      <footer>
+        <p>Your can call or email at:</p>
+        <p>Phone: +23407068584015</p>
+        <p>Phone: +23408064511626</p>
+        <p>Email: osomultimediaworld@gmail.com</p>
+        <h3>All Rights Reserved &copy;2020 Donatus Okwe</h3>
+      </footer>
+    </div>
+  </section>
+  <script src="booking.js"></script>
+</body>
+
+</html>
